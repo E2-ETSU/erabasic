@@ -14,21 +14,30 @@ OS `Windows 10 Pro 64bit`
 
 サクラエディタを起動して、下記の手順でセットアップ。
 
-1.`［設定］`→`［共通設定］`→左下の`［設定フォルダ］`→`［開く］`
+1.`［設定］`→`［共通設定］`  
+![［共通設定］を選択](https://github.com/E2-ETSU/erabasic/wiki/image/sakura_kyoutsuu.png)
 
-2.表示されたフォルダに設定ファイル群を丸ごとコピーする。
 
-3.`［設定］`→`［タイプ別設定一覧］`を開く。
+2.左下の`［設定フォルダ］`→`［開く］`  
+![［設定フォルダ］を開く](https://github.com/E2-ETSU/erabasic/wiki/image/sakura_hiraku.png)
 
-4.一番下の設定（例では設定ファイル）を選択してから`［インポート］`を選択する。
+3.表示されたフォルダに設定ファイル群を丸ごとコピーする。
 
-3.`［EraBasic.iniを指定］`→`［新規追加/そのままインポート］`
+4.`［設定］`→`［タイプ別設定一覧］`を開く。  
+![［タイプ別選択一覧］を選択](https://github.com/E2-ETSU/erabasic/wiki/image/sakura_type_betsu.png)
 
-4.`定義確認用ソースファイル.ERB`をサクラエディタで開く。
+5.一番下の設定（例では設定ファイル）を選択してから`［インポート］`を選択する。  
+![インポート時は一番下を選択する](https://github.com/E2-ETSU/erabasic/wiki/image/sakura_import.png)
 
-5.もう一度`[タイプ別設定]`を開き、追加された`erabasic`を`［一時適用］`する。
+6.`［EraBasic.iniを指定］`→`［新規追加/そのままインポート］`  
+![［タイプ別選択一覧］を選択](https://github.com/E2-ETSU/erabasic/wiki/image/sakura_import_ok.png)
 
-6.これで色分け設定が有効になります。
+7.`定義確認用ソースファイル.ERB`をサクラエディタで開く。
+
+8.もう一度`[タイプ別設定]`を開き、追加された`erabasic`を`［一時適用］`する。
+
+9.これで色分け設定が有効になります。  
+![［タイプ別選択一覧］を選択](https://github.com/E2-ETSU/erabasic/wiki/image/sakura_erb_example.png)
 
 ## ファイル群についての説明
 
@@ -50,4 +59,3 @@ OS `Windows 10 Pro 64bit`
    _強調キーワード6_ ASSERTなどのデバッグモード時のみ有効な命令（変数は除く）
 + `定義確認用ソースファイル.ERB`  
    色分け確認用のerabasicコード。eramaker/Emueraでは読ませないでください  
-
