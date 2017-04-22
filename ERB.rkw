@@ -24,6 +24,9 @@ RxKey[010]=RK2,/(?<=^|^;!;)@EVENT(FIRST|SHOP|BUY|TRAIN|COMEND|COM|END|TURNEND)(?
 RxKey[011]=RK2,/(?<=^|;!;)@(TITLE_LOADGAME|SYSTEM_AUTOSAVE|EVENTLOAD|SYSTEM_TITLE)(?=\r\n)/k
 // @CALLTRAINEND
 RxKey[012]=RK2,/(?<=^|;!;)@(CALLTRAINEND)(?=\r\n)/k
+// CALLEVENTに続く場合もイベント関数
+RxKey[013]=RK2,/(?<=CALLEVENT\s)EVENT(FIRST|SHOP|BUY|TRAIN|COMEND|COM|END|TURNEND)(?=\r\n)/k
+RxKey[014]=RK2,/(?<=CALLEVENT\s)(TITLE_LOADGAME|SYSTEM_AUTOSAVE|EVENTLOAD|SYSTEM_TITLE)(?=\r\n)/k
 
 
 //-----------------------------------------------------------------------------
